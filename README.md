@@ -15,12 +15,11 @@
 
 # Пример вызова из приложения
 <br><br>
-href = /apiAuth/?system=facebook&token_url=/myurl/  = facebook <br>
-href = /apiAuth/?system=vk&token_url=/myurl/  = vk <br>
-href = /apiAuth/?system=google&token_url=/myurl/  = google <br>
-href = /apiAuth/?system=yandex&token_url=/myurl/  = yandex 
+/apiAuth/?system=facebook&token_url=/myurl/  k <br>
+/apiAuth/?system=vk&token_url=/myurl/   <br>
+/apiAuth/?system=google&token_url=/myurl/  <br>
+/apiAuth/?system=yandex&token_url=/myurl/ 
 
-<br><br>
 
 system=facebook //авторизация через facebook  <br>
 token_url=/myurl/  //после авторизации редирект на /myurl/ с $_SESSION["authAPIinfo"] <br>
