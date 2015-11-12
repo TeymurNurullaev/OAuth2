@@ -14,12 +14,12 @@
 
 
 # Пример вызова из приложения
-<br><br>
-/apiAuth/?system=facebook&token_url=/myurl/   <br>
+
+/apiAuth/?system=<b>facebook</b>&token_url=<b>/myurl/</b>   <br>
 /apiAuth/?system=vk&token_url=/myurl/   <br>
 /apiAuth/?system=google&token_url=/myurl/  <br>
 /apiAuth/?system=yandex&token_url=/myurl/ 
 
 
-system=facebook //авторизация через facebook  <br>
-token_url=/myurl/  //после авторизации редирект на /myurl/ с $_SESSION["authAPIinfo"] <br>
+<b>system</b>=facebook //авторизация через facebook  <br>
+<b>token_url</b>=/myurl/  //после авторизации редирект на /myurl/ с $_SESSION["authAPIinfo"] <br>
