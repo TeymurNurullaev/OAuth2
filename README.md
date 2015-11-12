@@ -15,7 +15,7 @@
 
 # Пример вызова из приложения
 <br><br>
-/apiAuth/?system=facebook&token_url=/myurl/  k <br>
+/apiAuth/?system=facebook&token_url=/myurl/   <br>
 /apiAuth/?system=vk&token_url=/myurl/   <br>
 /apiAuth/?system=google&token_url=/myurl/  <br>
 /apiAuth/?system=yandex&token_url=/myurl/ 
